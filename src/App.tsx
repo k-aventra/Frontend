@@ -127,9 +127,9 @@ function HeroSection() {
           </p>
           <div className="hero-ctas">
             <SectionLink
-              href="/#contact"
-              className="btn btn-primary btn-lg hero-cta hero-cta--primary"
-            >
+                href={PRODUCT_PATH}
+                className="btn btn-primary btn-lg hero-cta hero-cta--primary"
+              >
               <span className="hero-cta-icon" aria-hidden>
                 <Calendar strokeWidth={2.25} />
               </span>
@@ -949,6 +949,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/product" element={<ProductPage />} />
+        <Route path="/Product" element={<ProductPage />} />
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/privacy" element={<PrivacyPage />} />
       </Routes>

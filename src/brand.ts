@@ -28,7 +28,7 @@ export const navLinks = [
   { href: '/#contact', label: 'Contact' },
 ] as const
 
-export const PRODUCT_PATH = '/product'
+export const PRODUCT_PATH = '/Product'
 
 /** Stripe Checkout links (test mode) — one per pricing tier, low → high. */
 export const STRIPE_CHECKOUT = {
